@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="fillerDiv">   
+
+            </div>
+            <div class="buttonWrapper">
+                <h1>RECIPE WORLD</h1>
+                <div>
+                    <button class="navButton"><a href="index.html">HOME</a></button>
+                    <button class="navButton"><a href="recipe.html">RECIPES</a></button>
+                    <button class="navButton"><a href="suggest.html">SUGGEST</a></button>
+                </div>
+            </div>
+            <div class="navImageWrapper">
+                <img class="navImage" src="./resources/suggest.png" alt="">
+            </div>
+        </nav>
+    </header>
+
+    <div class="body suggestBody">
+        <h2>SUGGEST</h2>
+        <div class="formWrapper">
+            <form action="mailto:aleksandar.nikolic@accenture.com">
+                <div>
+                    <label for="recipeName">Recipe Name:</label>
+                    <input type="text" id="recipeName" name="recipeName"><br>
+                </div>
+                <div>
+                    <label for="ingredients">Ingredients:</label>
+                    <input type="text" id="ingredients" name="ingredients"><br>
+                </div>
+                <div>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                </div>
+                <div>
+                    <label for="email">Your Email:</label>
+                    <input type="text" id="email" name="email"><br>
+                </div>
+                <div>
+                    <label for="tc">Agree to T&C</label>
+                    <input type="checkbox" id="tc" name="tc"><br>
+                </div>
+                <div>
+                    <input type="submit" id="submit" name="submit" disabled>
+                </div>
+              </form>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Copyright 2023 - Recipe World - Aleksandar Nikolic</p>
+    </footer>
+    
+    <script src="suggest.js"></script>
+</body>
+</html>
